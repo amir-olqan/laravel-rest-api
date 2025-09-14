@@ -1,0 +1,21 @@
+{
+    "name": "phoeni2020/laravel-rest-api",
+    "description": "RestAPI for Laravel",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.6.*|5.7.*|5.8.*|6.*|7.*|8.*|9.*|10.*|^11.0|^12.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phoeni2020\\RestAPI\\": "src",
+            "Phoeni2020\\RestAPI\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "khaled waleed",
+            "email": "php.programmr.94@gmail.com"
+        }
+    ]
+}
