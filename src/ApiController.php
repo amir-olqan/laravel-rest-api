@@ -1,15 +1,15 @@
 <?php
 
-namespace Phoeni2020\RestAPI;
+namespace AmirOlqan\RestAPI;
 
-use Phoeni2020\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
-use Phoeni2020\RestAPI\Exceptions\ResourceNotFoundException;
-use Phoeni2020\RestAPI\Tests\Models\DummyUser;
+use AmirOlqan\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use AmirOlqan\RestAPI\Exceptions\ResourceNotFoundException;
+use AmirOlqan\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Phoeni2020\RestAPI\ExtendedRelations\BelongsToMany;
+use AmirOlqan\RestAPI\ExtendedRelations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\Relation;

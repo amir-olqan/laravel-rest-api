@@ -4,7 +4,7 @@
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Phoeni2020\RestAPI\Tests\TestCase;
+use AmirOlqan\RestAPI\Tests\TestCase;
 
 class PaginationTest extends TestCase
 {

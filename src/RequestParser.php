@@ -1,12 +1,12 @@
 <?php
 
-namespace Phoeni2020\RestAPI;
+namespace AmirOlqan\RestAPI;
 
-use Phoeni2020\RestAPI\Exceptions\Parse\InvalidLimitException;
-use Phoeni2020\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
-use Phoeni2020\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
-use Phoeni2020\RestAPI\Exceptions\Parse\MaxLimitException;
-use Phoeni2020\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
+use AmirOlqan\RestAPI\Exceptions\Parse\InvalidLimitException;
+use AmirOlqan\RestAPI\Exceptions\Parse\InvalidFilterDefinitionException;
+use AmirOlqan\RestAPI\Exceptions\Parse\InvalidOrderingDefinitionException;
+use AmirOlqan\RestAPI\Exceptions\Parse\MaxLimitException;
+use AmirOlqan\RestAPI\Exceptions\Parse\NotAllowedToFilterOnThisFieldException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;

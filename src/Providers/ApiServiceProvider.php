@@ -1,10 +1,10 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Providers;
+namespace AmirOlqan\RestAPI\Providers;
 
-use Phoeni2020\RestAPI\Handlers\ApiExceptionHandler;
-use Phoeni2020\RestAPI\Routing\ApiResourceRegistrar;
-use Phoeni2020\RestAPI\Routing\ApiRouter;
+use AmirOlqan\RestAPI\Handlers\ApiExceptionHandler;
+use AmirOlqan\RestAPI\Routing\ApiResourceRegistrar;
+use AmirOlqan\RestAPI\Routing\ApiRouter;
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Routing\RouteCollection;

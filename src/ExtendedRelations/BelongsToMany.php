@@ -1,6 +1,6 @@
 <?php
 
-namespace Phoeni2020\RestAPI\ExtendedRelations;
+namespace AmirOlqan\RestAPI\ExtendedRelations;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as LaravelBelongsToMany;
 
 class BelongsToMany extends LaravelBelongsToMany

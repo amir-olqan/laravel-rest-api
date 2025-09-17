@@ -1,10 +1,10 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Routing;
+namespace AmirOlqan\RestAPI\Routing;
 
 use Closure;
-use Phoeni2020\RestAPI\Exceptions\ApiException;
-use Phoeni2020\RestAPI\Middleware\ApiMiddleware;
+use AmirOlqan\RestAPI\Exceptions\ApiException;
+use AmirOlqan\RestAPI\Middleware\ApiMiddleware;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Routing\ResourceRegistrar;
@@ -25,8 +25,8 @@ class ApiRouter extends Router
      */
     public function resource($name, $controller, array $options = [])
     {
-        if ($this->container && $this->container->bound('Phoeni2020\RestAPI\Routing\ApiResourceRegistrar')) {
-            $registrar = $this->container->make('Phoeni2020\RestAPI\Routing\ApiResourceRegistrar');
+        if ($this->container && $this->container->bound('AmirOlqan\RestAPI\Routing\ApiResourceRegistrar')) {
+            $registrar = $this->container->make('AmirOlqan\RestAPI\Routing\ApiResourceRegistrar');
         }
         else {
             $registrar = new ResourceRegistrar($this);
@@ -94,7 +94,7 @@ class ApiRouter extends Router
 //             $routes->add($route);
 
             // Options route
-           // $route = $this->createRoute(['OPTIONS'], $uri, ['uses' => '\Phoeni2020\RestAPI\Routing\ApiRouter@returnRoute']);
+           // $route = $this->createRoute(['OPTIONS'], $uri, ['uses' => '\AmirOlqan\RestAPI\Routing\ApiRouter@returnRoute']);
 
 //             $route->middleware(ApiMiddleware::class);
 

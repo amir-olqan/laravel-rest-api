@@ -1,9 +1,9 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Tests\Controllers;
+namespace AmirOlqan\RestAPI\Tests\Controllers;
 
-use Phoeni2020\RestAPI\ApiController;
-use Phoeni2020\RestAPI\Tests\Models\DummyComment;
+use AmirOlqan\RestAPI\ApiController;
+use AmirOlqan\RestAPI\Tests\Models\DummyComment;
 
 class CommentController extends ApiController
 {

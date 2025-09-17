@@ -1,8 +1,8 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Tests\Models;
+namespace AmirOlqan\RestAPI\Tests\Models;
 
-use Phoeni2020\RestAPI\ApiModel;
+use AmirOlqan\RestAPI\ApiModel;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -35,6 +35,6 @@ class DummyComment extends ApiModel
      */
     public function post()
     {
-        return $this->belongsTo('Phoeni2020\RestAPI\Tests\Models\DummyPost');
+        return $this->belongsTo('AmirOlqan\RestAPI\Tests\Models\DummyPost');
     }
 }

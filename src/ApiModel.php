@@ -1,10 +1,10 @@
-<?php namespace Phoeni2020\RestAPI;
+<?php namespace AmirOlqan\RestAPI;
 
 use Carbon\Carbon;
 use Closure;
 use DateTimeInterface;
-use Phoeni2020\RestAPI\Exceptions\RelatedResourceNotFoundException;
-use Phoeni2020\RestAPI\Exceptions\ResourceNotFoundException;
+use AmirOlqan\RestAPI\Exceptions\RelatedResourceNotFoundException;
+use AmirOlqan\RestAPI\Exceptions\ResourceNotFoundException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

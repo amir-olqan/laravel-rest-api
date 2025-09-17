@@ -1,6 +1,6 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Routing;
+namespace AmirOlqan\RestAPI\Routing;
 
 use Illuminate\Routing\ResourceRegistrar;
 use Illuminate\Support\Str;

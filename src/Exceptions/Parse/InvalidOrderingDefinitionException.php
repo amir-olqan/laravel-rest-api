@@ -1,9 +1,9 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Exceptions\Parse;
+namespace AmirOlqan\RestAPI\Exceptions\Parse;
 
-use Phoeni2020\RestAPI\Exceptions\ApiException;
-use Phoeni2020\RestAPI\Exceptions\ErrorCodes;
+use AmirOlqan\RestAPI\Exceptions\ApiException;
+use AmirOlqan\RestAPI\Exceptions\ErrorCodes;
 
 class InvalidOrderingDefinitionException extends ApiException
 {

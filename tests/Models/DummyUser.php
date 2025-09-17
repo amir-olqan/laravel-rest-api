@@ -1,8 +1,8 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Tests\Models;
+namespace AmirOlqan\RestAPI\Tests\Models;
 
-use Phoeni2020\RestAPI\ApiModel;
+use AmirOlqan\RestAPI\ApiModel;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -35,7 +35,7 @@ class DummyUser extends ApiModel
      */
     public function phone()
     {
-        return $this->hasOne('Phoeni2020\RestAPI\Tests\Models\DummyPhone', 'user_id', 'id');
+        return $this->hasOne('AmirOlqan\RestAPI\Tests\Models\DummyPhone', 'user_id', 'id');
     }
 
     /**
@@ -43,7 +43,7 @@ class DummyUser extends ApiModel
      */
     public function posts()
     {
-        return $this->hasMany('Phoeni2020\RestAPI\Tests\Models\DummyPost', 'user_id', 'id');
+        return $this->hasMany('AmirOlqan\RestAPI\Tests\Models\DummyPost', 'user_id', 'id');
     }
 
     /**
@@ -51,6 +51,6 @@ class DummyUser extends ApiModel
      */
     public function comments()
     {
-        return $this->hasMany('Phoeni2020\RestAPI\Tests\Models\DummyComment', 'user_id', 'id');
+        return $this->hasMany('AmirOlqan\RestAPI\Tests\Models\DummyComment', 'user_id', 'id');
     }
 }

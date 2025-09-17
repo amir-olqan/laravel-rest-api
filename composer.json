@@ -8,8 +8,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "amir-olqan\\RestAPI\\": "src",
-            "amir-olqan\\RestAPI\\Tests\\": "tests"
+            "AmirOlqan\\RestAPI\\": "src",
+            "AmirOlqan\\RestAPI\\Tests\\": "tests"
         }
     }
 }

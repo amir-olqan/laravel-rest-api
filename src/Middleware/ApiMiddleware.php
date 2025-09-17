@@ -1,10 +1,10 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Middleware;
+namespace AmirOlqan\RestAPI\Middleware;
 
 use Closure;
-use Phoeni2020\RestAPI\ApiResponse;
-use Phoeni2020\RestAPI\Exceptions\UnauthorizedException;
+use AmirOlqan\RestAPI\ApiResponse;
+use AmirOlqan\RestAPI\Exceptions\UnauthorizedException;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 

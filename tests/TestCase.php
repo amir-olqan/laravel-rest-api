@@ -1,22 +1,22 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Tests;
+namespace AmirOlqan\RestAPI\Tests;
 
-use Phoeni2020\RestAPI\Facades\ApiRoute;
-use Phoeni2020\RestAPI\Routing\ApiRouter;
-use Phoeni2020\RestAPI\Tests\Controllers\CommentController;
-use Phoeni2020\RestAPI\Tests\Controllers\PostController;
-use Phoeni2020\RestAPI\Tests\Controllers\UserController;
-use Phoeni2020\RestAPI\Tests\Models\DummyComment;
-use Phoeni2020\RestAPI\Tests\Models\DummyPhone;
-use Phoeni2020\RestAPI\Tests\Models\DummyPost;
-use Phoeni2020\RestAPI\Tests\Models\DummyUser;
+use AmirOlqan\RestAPI\Facades\ApiRoute;
+use AmirOlqan\RestAPI\Routing\ApiRouter;
+use AmirOlqan\RestAPI\Tests\Controllers\CommentController;
+use AmirOlqan\RestAPI\Tests\Controllers\PostController;
+use AmirOlqan\RestAPI\Tests\Controllers\UserController;
+use AmirOlqan\RestAPI\Tests\Models\DummyComment;
+use AmirOlqan\RestAPI\Tests\Models\DummyPhone;
+use AmirOlqan\RestAPI\Tests\Models\DummyPost;
+use AmirOlqan\RestAPI\Tests\Models\DummyUser;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 
 /**
  * Class TestCase
- * @package Phoeni2020\RestAPI\Tests
+ * @package AmirOlqan\RestAPI\Tests
  */
 class  TestCase extends \Illuminate\Foundation\Testing\TestCase
 {

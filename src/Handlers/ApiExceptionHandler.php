@@ -1,15 +1,15 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Handlers;
+namespace AmirOlqan\RestAPI\Handlers;
 
 use App\Exceptions\Handler;
-use Phoeni2020\RestAPI\ApiResponse;
-use Phoeni2020\RestAPI\Exceptions\ApiException;
-use Phoeni2020\RestAPI\Exceptions\Parse\UnknownFieldException;
-use Phoeni2020\RestAPI\Exceptions\UnauthenticatedException;
-use Phoeni2020\RestAPI\Exceptions\UnauthenticationException;
-use Phoeni2020\RestAPI\Exceptions\UnauthorizedException;
-use Phoeni2020\RestAPI\Exceptions\ValidationException;
+use AmirOlqan\RestAPI\ApiResponse;
+use AmirOlqan\RestAPI\Exceptions\ApiException;
+use AmirOlqan\RestAPI\Exceptions\Parse\UnknownFieldException;
+use AmirOlqan\RestAPI\Exceptions\UnauthenticatedException;
+use AmirOlqan\RestAPI\Exceptions\UnauthenticationException;
+use AmirOlqan\RestAPI\Exceptions\UnauthorizedException;
+use AmirOlqan\RestAPI\Exceptions\ValidationException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\QueryException;

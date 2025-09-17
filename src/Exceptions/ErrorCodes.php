@@ -1,6 +1,6 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Exceptions;
+namespace AmirOlqan\RestAPI\Exceptions;
 
 class ErrorCodes
 {

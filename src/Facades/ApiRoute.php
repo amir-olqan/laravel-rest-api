@@ -1,8 +1,8 @@
 <?php
 
-namespace Phoeni2020\RestAPI\Facades;
+namespace AmirOlqan\RestAPI\Facades;
 
-use Phoeni2020\RestAPI\Routing\ApiRouter;
+use AmirOlqan\RestAPI\Routing\ApiRouter;
 use Illuminate\Support\Facades\Facade;
 
 class ApiRoute extends Facade

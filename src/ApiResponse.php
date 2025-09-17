@@ -1,8 +1,8 @@
 <?php
 
-namespace Phoeni2020\RestAPI;
+namespace AmirOlqan\RestAPI;
 
-use Phoeni2020\RestAPI\Exceptions\ApiException;
+use AmirOlqan\RestAPI\Exceptions\ApiException;
 
 class ApiResponse
 {
